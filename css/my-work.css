@@ -1,0 +1,150 @@
+.myWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+.myWork h1 {
+  color: #343F56;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.myWork h2 {
+  color: #343F56;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.myWork p {
+  color: #343F56;
+  font-family: Trirong;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.workGrid1 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  max-width: 750px;
+  padding: 32px;
+  border-top: 20px solid #E9896A;
+  border-bottom: 20px solid #E9896A;
+  grid-template-areas:
+    "img1 cs1Title"
+    "img1 cs1Info"
+    "img1 gridbutton";
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.cs1Title {
+  grid-area: cs1Title;
+}
+
+.cs1Info {
+  grid-area: cs1Info;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.gridbutton {
+  grid-area: gridbutton;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: 32px auto 32px auto;
+}
+
+.workGrid2 {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  max-width: 750px;
+  grid-template-areas:
+    "cs2Title cs2Title cs2Title cs2Title"
+    "cs2Info cs2Info cs2Info cs2Info"
+    "gridbutton gridbutton gridbutton gridbutton"
+    "cs2img1 cs2img1 cs2img1 cs2img2";
+}
+
+.cs2img1 {
+  grid-area: cs2img1;
+  width: 600px;
+}
+
+.cs2img2 {
+  grid-area: cs2img2;
+  width: 150px;
+}
+
+.cs2Title {
+  grid-area: cs2Title;
+}
+
+.cs2Info {
+  grid-area: cs2Info;
+  display: flex;
+  align-items: center;
+}
+
+.viewCS {
+  padding: 16px;
+  border-radius: 13px;
+  background: #387C6D;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #F8F5F1;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media(max-width: 600px) {
+  .workGrid1 {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    max-width: 600px;
+    padding: 32px;
+    border-top: 20px solid #E9896A;
+    border-bottom: 20px solid #E9896A;
+    grid-template-areas:
+      "img1"
+      "cs1Title"
+      "cs1Info"
+      "gridbutton";
+  }
+
+  .workGrid2 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    max-width: 600px;
+    grid-template-areas:
+      "cs2Title"
+      "cs2Info"
+      "gridbutton"
+      "cs2img1"
+      "cs2img2";
+  }
+}

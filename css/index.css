@@ -1,0 +1,255 @@
+.heroImg {
+<<<<<<< HEAD
+  width: 100%;
+}
+
+.orange {
+  width: 100%;
+  height: 125px;
+  background-color: #E9896A;
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 125px;
+  background-color: #387C6D;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: right;
+  color: #F8F5F1;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 32px;
+}
+
+.green p {
+  margin-right: 16px;
+}
+
+.blue {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+  background-color: #343F56;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: right;
+  color: #F8F5F1;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 32px;
+}
+
+.blue p {
+  margin-right: 16px;
+}
+
+.aboutMe {
+  color: #343F56;
+=======
+  background-image: url("../images/homeHero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50%;
+}
+
+.aboutMe {
+  color: #D1E8E2;
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+  font-family: Trirong;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+  padding: 64px 0px 64px 0px;
+  max-width: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.caseStudy1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+<<<<<<< HEAD
+  border-top: 20px solid #E9896A;
+  border-bottom: 20px solid #E9896A;
+  padding: 64px;
+}
+
+=======
+  border-top: 3px solid #D1E8E2;
+  border-bottom: 3px solid #D1E8E2;
+  padding: 64px;
+}
+
+.cs1Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 64px;
+}
+
+.csTitleCard {
+  display: flex;
+  padding: 32px;
+  width: 175px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background: rgba(209, 232, 226, 0.50);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #116466;
+  text-align: center;
+}
+
+.tag {
+  display: flex;
+  padding: 16px;
+  width: 207px;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background: rgba(209, 232, 226, 0.50);
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #116466;
+  text-align: center;
+}
+
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+.cs1Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.csContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+<<<<<<< HEAD
+  max-width: 600px;
+  margin: 64px;
+}
+
+.csTitle {
+  color: #343f56;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+=======
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+}
+
+.csAbout {
+  font-family: Trirong;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+<<<<<<< HEAD
+  color: #343f56;
+=======
+  color: #D1E8E2;
+  margin: 64px;
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+  min-width: 300px;
+}
+
+.viewCS {
+  padding: 16px;
+  border-radius: 13px;
+<<<<<<< HEAD
+  background: #387C6D;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #F8F5F1;
+=======
+  background: #116466;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #D1E8E2;
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.caseStudy2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+<<<<<<< HEAD
+  padding: 64px;
+=======
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+}
+
+.cs2Info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+<<<<<<< HEAD
+  margin-bottom: 64px;
+=======
+  margin: 64px;
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+}
+
+.csTitleCombo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+<<<<<<< HEAD
+.cs2Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+=======
+.tagHolder {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+>>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
+}
+
+.csImageHolder {
+  margin-bottom: 64px;
+}
