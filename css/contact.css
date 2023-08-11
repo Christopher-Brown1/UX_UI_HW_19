@@ -1,0 +1,25 @@
+h1 {
+  color: #343F56;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactTile {
+  width: 368px;
+  height: 368px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #387C6D;
+  margin: 36px;
+}
