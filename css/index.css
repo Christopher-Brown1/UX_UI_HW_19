@@ -1,5 +1,4 @@
 .heroImg {
-<<<<<<< HEAD
   width: 100%;
 }
 
@@ -55,18 +54,6 @@
 
 .aboutMe {
   color: #343F56;
-=======
-  background-image: url("../images/homeHero.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 50%;
-}
-
-.aboutMe {
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   font-family: Trirong;
   font-size: 18px;
   font-style: normal;
@@ -90,62 +77,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   border-top: 20px solid #E9896A;
   border-bottom: 20px solid #E9896A;
   padding: 64px;
 }
 
-=======
-  border-top: 3px solid #D1E8E2;
-  border-bottom: 3px solid #D1E8E2;
-  padding: 64px;
-}
-
-.cs1Title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: 64px;
-}
-
-.csTitleCard {
-  display: flex;
-  padding: 32px;
-  width: 175px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 13px;
-  background: rgba(209, 232, 226, 0.50);
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: #116466;
-  text-align: center;
-}
-
-.tag {
-  display: flex;
-  padding: 16px;
-  width: 207px;
-  margin-top: 16px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 13px;
-  background: rgba(209, 232, 226, 0.50);
-  font-family: Montserrat;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: #116466;
-  text-align: center;
-}
-
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 .cs1Image {
   display: flex;
   justify-content: center;
@@ -156,7 +92,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
   max-width: 600px;
   margin: 64px;
 }
@@ -169,8 +104,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-=======
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .csAbout {
@@ -179,27 +112,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-<<<<<<< HEAD
   color: #343f56;
-=======
-  color: #D1E8E2;
-  margin: 64px;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   min-width: 300px;
 }
 
 .viewCS {
   padding: 16px;
   border-radius: 13px;
-<<<<<<< HEAD
   background: #387C6D;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: #F8F5F1;
-=======
-  background: #116466;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   text-align: center;
   font-family: Montserrat;
   font-size: 19px;
@@ -213,21 +135,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   padding: 64px;
-=======
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .cs2Info {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-<<<<<<< HEAD
   margin-bottom: 64px;
-=======
-  margin: 64px;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .csTitleCombo {
@@ -236,18 +151,11 @@
   align-items: center;
 }
 
-<<<<<<< HEAD
 .cs2Content {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 75%;
-=======
-.tagHolder {
-  display: flex;
-  flex-direction: column;
-  margin: 16px;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .csImageHolder {

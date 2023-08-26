@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   margin-bottom: auto;
 }
@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   padding: 32px;
-  width: 60%;
+  width: 475px;
 }
 
 .aboutMe h2 {
@@ -55,7 +55,8 @@
   flex-direction: column;
   align-items: center;
   padding: 32px;
-  width: 40%;
+  width: 388px;
+  margin-left: 100px;
 }
 
 .skills h2 {

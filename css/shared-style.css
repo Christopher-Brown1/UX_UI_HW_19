@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
   background-color: #f8f5f1;
-=======
-  background-color: #2C3531;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 header {
@@ -11,21 +7,10 @@ header {
   top: 0;
   left: 0;
   right: 0;
-<<<<<<< HEAD
   background-color: #f8f5f1;
   z-index: 10;
 }
 
-=======
-  background-color: #2C3531;
-  z-index: 10;
-}
-
-body,
-html {
-  height: 100%;
-}
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 
 .inline-block {
   width: 100%;
@@ -46,11 +31,7 @@ html {
 .logo a,
 h1 {
   text-decoration: none;
-<<<<<<< HEAD
   color: #343F56;
-=======
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .navigation {
@@ -58,17 +39,9 @@ h1 {
   padding: 1%;
   display: flex;
   align-items: baseline;
-<<<<<<< HEAD
 }
 
 .topnav {
-=======
-
-}
-
-.topnav {
-
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
@@ -76,11 +49,7 @@ h1 {
 }
 
 .topnav a {
-<<<<<<< HEAD
   color: #343F56;
-=======
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   text-align: center;
   padding: 18px 31px;
   text-decoration: none;
@@ -89,13 +58,8 @@ h1 {
 }
 
 .topnav a:hover {
-<<<<<<< HEAD
   background-color: #343F56;
   color: #f8f5f1;
-=======
-  background-color: #116466;
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
 
 .topnav a.active {
@@ -103,16 +67,9 @@ h1 {
 }
 
 footer {
-<<<<<<< HEAD
   background-color: #343F56;
   display: flex;
   justify-content: flex-end;
-=======
-  background-color: #116466;
-  display: flex;
-  justify-content: flex-end;
-
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   bottom: 0;
 }
 
@@ -129,18 +86,13 @@ footer img {
 }
 
 footer p {
-<<<<<<< HEAD
   color: #f8f5f1;
-=======
-  color: #D1E8E2;
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
   font-family: Trirong;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-align: right;
-<<<<<<< HEAD
 }
 
 footer h1 {
@@ -151,6 +103,4 @@ footer h1 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-=======
->>>>>>> 0d605c2046fed9ad6f78b2a5e557f0bd9565a59a
 }
